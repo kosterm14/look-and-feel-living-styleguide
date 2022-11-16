@@ -16,7 +16,7 @@ body {
   font-feature-settings: 'kern' 1, 'liga' on, 'dlig' on;
   line-height: 1.5;
 
-  color: DarkSlateGray;
+  color: #090940;
   background-color: rgb(255, 255, 255);
 }
 
@@ -27,7 +27,7 @@ body > * {
 header {
   background-color: white;
   margin-bottom: 1rem;
-  color: silver;
+  color: #090940;
   border-bottom-style: solid;
   border-bottom: #090940;
 }
@@ -44,11 +44,11 @@ nav {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgb(255, 255, 255);
+  background-color: #feb51e;
   overflow-x: hidden;
   padding-top: 20px;
-  border: #090940;
-  border-right-style: solid;
+  /* border: #090940;
+  border-right-style: solid; */
 }
 
 nav ul {
@@ -67,7 +67,7 @@ nav li a {
   text-align: center;
   margin: 0;
   padding: 0;
-  color: #feb51e;
+  color: #090940;
 }
 
 nav .image {
@@ -96,7 +96,7 @@ h3 {
 
 pre {
   padding-left: 0.2rem;
-  background: DarkSlateGray;
+  background: rgb(0, 0, 0);
   color: white;
 }
 
