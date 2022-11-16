@@ -17,7 +17,7 @@ body {
   line-height: 1.5;
 
   color: DarkSlateGray;
-  background-color: silver;
+  background-color: rgb(255, 255, 255);
 }
 
 body > * {
@@ -28,19 +28,51 @@ header {
   background-color: white;
   margin-bottom: 1rem;
   color: silver;
+  border-bottom-style: solid;
+  border-bottom: #090940;
 }
 
 header > h1 {
   font-size: 1rem;
-  text-align: right;
+  text-align: center;
+}
+
+nav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  padding-top: 20px;
+  border: #090940;
+  border-right-style: solid;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 nav li {
   display: inline;
+  text-align: center;
 }
 
 nav li a {
   text-decoration: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #feb51e;
+}
+
+nav .image {
+  text-align: center;
+  margin: 0.75rem;
 }
 
 nav a.active {
@@ -66,4 +98,10 @@ pre {
   padding-left: 0.2rem;
   background: DarkSlateGray;
   color: white;
+}
+
+main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
 }
