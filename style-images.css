@@ -12,16 +12,17 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "yrsa", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   text-rendering: optimizeLegibility;
-  font-feature-settings: 'kern' 1, 'liga' on, 'dlig' on;
+  font-feature-settings: "kern" 1, "liga" on, "dlig" on;
   line-height: 1.5;
 
   color: #090940;
   background-color: rgb(255, 255, 255);
 }
 
-body>* {
+body > * {
   padding: 0.2rem;
 }
 
@@ -31,7 +32,7 @@ header {
   color: #bfbfd8;
 }
 
-header>h1 {
+header > h1 {
   font-size: 1rem;
   text-align: right;
 }
@@ -91,7 +92,7 @@ section {
   padding: 0.2rem;
 }
 
-section+section {
+section + section {
   margin-top: 1rem;
 }
 
@@ -107,19 +108,44 @@ pre {
 }
 
 main {
-  margin-left: 160px;
-  /* Same as the width of the sidenav */
-  font-size: 28px;
-  /* Increased text to enable scrolling */
+
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
 
-.hexagon {
-  margin-left: 700px;
-  margin-top: 53px;
+h1 {
+  font-size: 63.15px;
 }
 
-main h1 {
-  display: flex;
-  justify-content: center;
+h2 {
+  font-size: 47.37px;
+}
+
+h3 {
+  font-size: 35.54px;
+}
+
+h4 {
+  font-size: 26.66px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: rigid-square, sans-serif;
 }

@@ -10,10 +10,12 @@
 
 body {
   min-height: 100vh;
+  overflow-x: hidden;
 
-  font-family: sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   text-rendering: optimizeLegibility;
-  font-feature-settings: 'kern' 1, 'liga' on, 'dlig' on;
+  font-feature-settings: "kern" 1, "liga" on, "dlig" on;
   line-height: 1.5;
 
   color: #090940;
@@ -37,16 +39,52 @@ header > h1 {
   text-align: right;
 }
 
+nav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #feb51e;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 nav li {
   display: inline;
+  text-align: center;
 }
 
 nav li a {
   text-decoration: none;
+  text-align: center;
+  color: #090940;
+  display: block;
+  padding: 16px;
+}
+
+nav .image {
+  text-align: center;
+  margin: 0.75rem;
+  display: block;
 }
 
 nav a.active {
-  font-weight: bold;
+  background-color: #ffe1a5;
+}
+
+nav a:hover:not(.active) {
+  background-color: #625c51;
+  color: white;
 }
 
 section {
@@ -69,3 +107,10 @@ pre {
   background: #67c5d1;
   color: white;
 }
+
+main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
