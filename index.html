@@ -21,26 +21,60 @@
 
     <main>
       <h2>Globals</h2>
-
       <section>
-        <h3>Header</h3>
-        <img src="screenshot_van_je_header.png" alt="screenshot van je header" />
+        <h3>Headings</h3>
+        <img src="assets/header vthbo.png" alt="screenshot van je header" />
 
         <h4>Wel doen</h4>
-        <p>Vertel hoe dingen toegepast moeten worden.</p>
+        <p>
+          Ga uit van 1rem = 20px. We gebruiken een schaal van 1.333 per
+          H-niveau.
+        </p>
 
         <h4>Niet doen</h4>
-        <p>Vertel hoe dingen vooral niet toegepast moeten worden.</p>
+        <p>
+          Ga nooit bijvoorbeeld van &lt;h1&gt; naar &lt;h3&gt;, omdat dat er
+          mooier uitziet. Gebruik headings in de correcte hiërarchische volgorde
+          ( &lt;h1&gt; gevolgd door &lt;h2&gt;, enzovoort). Dit verbetert de
+          leesbaarheid voor alle gebruikers.
+        </p>
 
         <!-- Om HTML in HTML te laten zien gebruik je &lt; voor de < en &gt; voor de > -->
         <pre><code>&lt;header&gt;
   &lt;h1&gt;Zo maak je een header&lt;/h1&gt;
 &lt;/header&gt;
 
-header {
-  background-color: white;
-  margin-bottom: 1rem;
-  color: silver;
+Gebruik voor hero &lt;p class="hero"&gt;Zo maak je een hero&lt;/p&gt;
+
+Header{
+  font-family: rigid-square, sans-serif;
+}
+
+h1 {
+  font-size: 63.15px;
+}
+
+h2 {
+  font-size: 47.37px;
+}
+
+h3 {
+  font-size: 35.54px;
+}
+
+h4 {
+  font-size: 26.66px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 15px;
+  font-weight: 400;
 }
 
 header > h1 {
@@ -49,11 +83,111 @@ header > h1 {
 }
   </code></pre>
       </section>
-
       <section>
         <h3>Footer</h3>
         ...
       </section>
-    </main>
-  </body>
+      
+    <h2>Kleuren</h2>
+
+    <p>vtHBO gebruikt een breed kleurenpalet. Kleuren worden gebruikt om
+      onderdelen te categoriseren. Binnen een kleur kunnen verschillende
+      tinten worden gebruikt om hiërarchie te creëren.</p>
+    <section>
+      <h3>Primaire kleuren</h3>
+
+      <p>De primaire kleuren worden gebruikt voor essentiële elementen en tekst.
+        De tinten kunnen gebruikt worden voor het creëren van hiërarchie</p>
+    </section>
+
+    <section>
+      <h4>Donkerblauw</h4>
+      <img src="assets/donkerblauw.png"
+        alt="Donkerblauw-Kleurcodes-Gebruik deze kleur in elk geval voor brood tekst en koppen">
+    </section>
+
+    <section>
+      <pre><code>&lt;p&gt;
+  color: #090940, #3a3a66, #6b6b8c, #9d9db3, #ceced9;
+&lt;/p&gt;
+</code></pre>
+    </section>
+
+    <section>
+      <h4>Lichtblauw</h4>
+      <img src="assets/lichtblauw.png"
+        alt="Lichtblauw-Kleurcodes-Deze kleur leent zich goed om tekstvlakken of stroken mee in te kleuren">
+    </section>
+
+    <section>
+      <pre><code>&lt;p&gt;
+  color: #67c5d1, #85d1da, #a4dce3, #c2e8ed, #e1f3f6;
+&lt;/p&gt;
+</code></pre>
+    </section>
+
+    <section>
+      <h4>Rood</h4>
+      <img src="assets/rood.png" alt="Rood-Kleurcodes-Gebruik rood spaarzaam, voor extra nadruk">
+    </section>
+
+    <section>
+      <pre><code>&lt;p&gt;
+  color: #f96c4f, #fa8972, #fba795, #fdc4b9, #fee2dc;
+&lt;/p&gt;
+</code></pre>
+    </section>
+
+    <section>
+      <h4>Geel</h4>
+      <img src="assets/geel.png" alt="Geel-Kleurcodes-Gebruik geel voor interactieve elementen: tags, links en buttons">
+    </section>
+
+    <!-- Om HTML in HTML te laten zien gebruik je &lt; voor de < en &gt; voor de > -->
+    <section>
+      <pre><code>&lt;p&gt;
+  color: #feb51e, #fec44b, #fed378, #ffe1a5, #fff0d2;
+&lt;/p&gt;</code></pre>
+    </section>
+
+    <section>
+      <h3>Secundaire kleuren</h3>
+      <p>Deze kleuren kunnen vrij worden ingezet, bijvoorbeeld
+        bij het kleurcoderen van categorieën of voor de verschillende
+        stadia van interactieve elementen (hover, active etc.)</p>
+    </section>
+
+    <section>
+      <img src="assets/secundaire.png"
+        alt="Kleurcodes van de secundaire kleuren">
+    </section>
+
+    <section>
+      <pre><code>&lt;p&gt;
+  color: #af1301, #fbc5b4, #169861, #63c09f, 
+         #4fbbc2, #31439c, #8b3a00, #fe6f07;
+&lt;/p&gt;</code></pre>
+    </section>
+
+    <section>
+      <h3>Grijstinten</h3>
+      <p>Gebruik grijs voor afscheidingen, elementen laag in de hiërarchie en voor
+        inactieve elementen die geactiveerd kunnen worden</p>
+    </section>
+
+    <section>
+      <img src="assets/grijstinten.png"
+        alt="Kleurcodes van de grijstinten">
+    </section>
+
+    <section>
+      <pre><code>&lt;p&gt;
+  color: #625c51, #c0beb9, #e0dedc, #f9f8f8;
+&lt;/p&gt;</code></pre>
+    </section>
+      
+       <img src="./assets/Screenshot 2022-11-18 at 09.51.12.png" />
+  </main>
+</body>
+
 </html>
