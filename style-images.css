@@ -12,9 +12,10 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   text-rendering: optimizeLegibility;
-  font-feature-settings: 'kern' 1, 'liga' on, 'dlig' on;
+  font-feature-settings: "kern" 1, "liga" on, "dlig" on;
   line-height: 1.5;
 
   color: #090940;
@@ -109,4 +110,9 @@ main {
   margin-left: 160px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
+}
+
+footer {
+  max-width: 100%;
+  margin-left: 28%;
 }
