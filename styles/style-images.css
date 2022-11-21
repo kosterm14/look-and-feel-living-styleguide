@@ -12,11 +12,7 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 
-<<<<<<< HEAD:style-images.css
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-=======
   font-family: "yrsa", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
->>>>>>> 601cf0a957198d8c2eee2329b08e136c2fec4932:styles/style-images.css
     "Lucida Sans", Arial, sans-serif;
   text-rendering: optimizeLegibility;
   font-feature-settings: "kern" 1, "liga" on, "dlig" on;
@@ -118,11 +114,6 @@ main {
   padding: 0px 10px;
 }
 
-<<<<<<< HEAD:style-images.css
-footer {
-  max-width: 100%;
-  margin-left: 28%;
-=======
 h1 {
   font-size: 63.15px;
 }
@@ -202,5 +193,4 @@ button {
   border: none;
   background-color: #F96C4F;
   cursor: pointer;
->>>>>>> 601cf0a957198d8c2eee2329b08e136c2fec4932:styles/style-images.css
 }
