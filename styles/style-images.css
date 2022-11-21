@@ -12,7 +12,11 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 
+<<<<<<< HEAD:style-images.css
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+=======
+  font-family: "yrsa", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+>>>>>>> 601cf0a957198d8c2eee2329b08e136c2fec4932:styles/style-images.css
     "Lucida Sans", Arial, sans-serif;
   text-rendering: optimizeLegibility;
   font-feature-settings: "kern" 1, "liga" on, "dlig" on;
@@ -91,6 +95,7 @@ section {
   border-radius: 0.2rem;
   padding: 0.2rem;
 }
+
 section + section {
   margin-top: 1rem;
 }
@@ -107,12 +112,95 @@ pre {
 }
 
 main {
+
   margin-left: 160px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
 
+<<<<<<< HEAD:style-images.css
 footer {
   max-width: 100%;
   margin-left: 28%;
+=======
+h1 {
+  font-size: 63.15px;
+}
+
+h2 {
+  font-size: 47.37px;
+}
+
+h3 {
+  font-size: 35.54px;
+}
+
+h4 {
+  font-size: 26.66px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: rigid-square, sans-serif;
+}
+
+.hexagon {
+  margin-left: 680px;
+}
+
+button {
+  font-family: rigid-square, sans-serif;
+  font-size: 1em;
+  font-weight: 800;
+  padding: 0.75rem 1rem;
+  border: none;
+  color: #090940;
+  background-size: 400%;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-image: linear-gradient(90deg, #FEB51E 50%, #090940 50%);
+
+}
+
+.btn-secondary {
+  box-shadow:0px 0px 0px 2px #090940 inset;
+  background: transparent;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+  background-position: right center;
+  transform: scale(1.05); 
+  opacity: 0.9;
+  color: #ffffff;
+}
+
+.btn-secondary:hover {
+  background-color: #090940;
+  box-shadow: none;
+}
+
+.pagination {
+  padding: 0.5rem 0.6rem 0.3rem 0.6rem;
+  border: none;
+  background-color: #F96C4F;
+  cursor: pointer;
+>>>>>>> 601cf0a957198d8c2eee2329b08e136c2fec4932:styles/style-images.css
 }
