@@ -25,10 +25,11 @@
           /></a>
         </li>
         <li><a href="headings.html">Headings</a></li>
-        <li><a href="images.html" class="active">Images</a></li>
+        <li><a href="images.html">Images</a></li>
         <li><a href="kleuren.html">Kleuren</a></li>
         <li><a href="typografie.html">Typografie</a></li>
         <li><a href="knoppen.html">Knoppen</a></li>
+        <li><a href="lijsten.html" class="active">Lijsten</a></li>
       </ul>
     </nav>
 
@@ -36,108 +37,41 @@
       <h2>Lijsten</h2>
 
       <section>
-        <h3>Logo</h3>
-        <img src="../assets/logo-vt.png" alt="screenshot van logo" />
+        <h3>Lijsten</h3>
+        <img
+          src="../assets/lijsten-voorbeeld-1.png"
+          width="1250px"
+          alt="voorbeeld van lijsten"
+        />
 
-        <h4>Wel doen</h4>
+        <br>
         <p>
-          Bij het toepassen van een logo moet de naam van de afbeelding logisch
-          en duidelijk zijn. Daarnaast is het ook van belang dat er een alt in
-          de img tag zit die het plaatje goed beschrijft
+          Bij het toepassen van een lijst word er gebruik gemaakt van een
+          ongeordende lijst, zonder bullets etc. In het voorbeeld is de lijst te zien in een column, 
+          maar voor andere beeldschermen is de lijst onderelkaar te zien.
+          <br>
+          Let op: Hou je wel aan de typografie regels bij het gebruik van een lijst.
         </p>
-
+        <br />
         <pre><code>
-&lt;img src="goedenaam.png" alt="goede omschrijving van plaatje"&gt;
+&lt;ul&gt;
+    &lt;li&gt; Onderzoeken en begrijpen &lt;/li&gt;
+    &lt;li&gt; Organiseren en plannen &lt;/li&gt;
+    &lt;li&gt; Leren over jezelf en reflecteren &lt;/li&gt;
+    &lt;li&gt; Communiceren en presenteren &lt;/li&gt;
+    &lt;li&gt; Creatief denken &lt;/li&gt;
+    &lt;li&gt; Leren over anderen &lt;/li&gt;
+&lt;/ul&gt;
+        </code></pre>
+        <br>
+        <pre><code>
+&lt;style&gt;
+    li {
+        list-style-type: none;
+    }
+&lt;/style&gt;
         </code></pre>
 
-        <h4>Niet doen</h4>
-        <p>
-          Het plaatje moet een duidelijke en logische naam hebben. Ook moet het
-          een alt bevatten voor accessability.
-        </p>
-
-        <pre><code>
-&lt;img src="oasjodnwoi234sdow02.png"&gt;
-        </code></pre>
-      </section>
-
-      <section>
-        <h3>Afbeeldingen</h3>
-        <img src="../assets/werkvorm.png" alt="screenshot van een afbeelding" />
-
-        <h4>Wel doen</h4>
-        <p>
-          Bij het toepassen van een afbeelding moet de naam van de afbeelding
-          logisch en duidelijk zijn. Daarnaast is het ook van belang dat er een
-          alt in de img tag zit die het plaatje goed beschrijft
-        </p>
-
-        <pre><code>
-&lt;img src="goedenaam.png" alt="goede omschrijving van plaatje"&gt;
-        </code></pre>
-
-        <h4>Niet doen</h4>
-        <p>
-          Het plaatje moet een duidelijke en logische naam hebben. Ook moet het
-          een alt bevatten voor accessability.
-        </p>
-
-        <pre><code>
-&lt;img src="oasjodnwoi234sdow02.png"&gt;
-        </code></pre>
-      </section>
-
-      <section>
-        <h3>Icoontjes</h3>
-        <img src="../assets/profile-icon.png" alt="screenshot van icoon" />
-
-        <h4>Wel doen</h4>
-        <p>
-          Bij het toepassen van een icon moet de naam van de afbeelding logisch
-          en duidelijk zijn. Daarnaast is het ook van belang dat er een alt in
-          de img tag zit die het plaatje goed beschrijft
-        </p>
-
-        <pre><code>
-&lt;img src="goedenaam.png" alt="goede omschrijving van plaatje"&gt;
-        </code></pre>
-
-        <h4>Niet doen</h4>
-        <p>
-          Het plaatje moet een duidelijke en logische naam hebben. Ook moet het
-          een alt bevatten voor accessability.
-        </p>
-
-        <pre><code>
-&lt;img src="oasjodnwoi234sdow02.png"&gt;
-        </code></pre>
-      </section>
-
-      <section>
-        <h3>Thumbnails</h3>
-        <img src="../assets/thumbnail.png" alt="screenshot van een thumbnail" />
-
-        <h4>Wel doen</h4>
-        <p>
-          Bij het toepassen van een thumbnail moet de naam van de afbeelding
-          logisch en duidelijk zijn. Daarnaast is het ook van belang dat er een
-          alt in de img tag zit die het plaatje goed beschrijft
-        </p>
-
-        <pre><code>
-&lt;img src="goedenaam.png" alt="goede omschrijving van plaatje"&gt;
-        </code></pre>
-
-        <h4>Niet doen</h4>
-        <p>
-          Het plaatje moet een duidelijke en logische naam hebben. Ook moet het
-          een alt bevatten voor accessability.
-        </p>
-
-        <pre><code>
-&lt;img src="oasjodnwoi234sdow02.png"&gt;
-        </code></pre>
-      </section>
     </main>
   </body>
 </html>
