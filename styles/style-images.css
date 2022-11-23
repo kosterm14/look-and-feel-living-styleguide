@@ -199,3 +199,13 @@ button {
   background-color: #f96c4f;
   cursor: pointer;
 }
+
+.link {
+  color: #feb51e;
+}
+
+.yrsa {
+  font-family: "yrsa", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 300;
+}
