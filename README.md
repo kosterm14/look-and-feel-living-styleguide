@@ -10,15 +10,15 @@ Ontwerp en maak een living styleguide voor een opdrachtgever.
 
 
 ## Het team
-[Eliza](https://github.com/moonlightlizaa)
-[Isandro](https://github.com/isandroc)
-[Marco](https://github.com/kosterm14)
-[Trisjan](https://github.com/trisjan)
-[Ivar](https://github.com/ivarschuyt)
-[Roemer](https://github.com/roemerva)
-[Chaan](https://github.com/chaanw)
-[Fouad](https://github.com/fouadtaissate)
-[Chris](https://github.com/chrisvanderhorst0308)
+* [Eliza](https://github.com/moonlightlizaa)
+* [Isandro](https://github.com/isandroc)
+* [Marco](https://github.com/kosterm14)
+* [Trisjan](https://github.com/trisjan)
+* [Ivar](https://github.com/ivarschuyt)
+* [Roemer](https://github.com/roemerva)
+* [Chaan](https://github.com/chaanw)
+* [Fouad](https://github.com/fouadtaissate)
+* [Chris](https://github.com/chrisvanderhorst0308)
 
 ## Licentie
 
