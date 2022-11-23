@@ -6,8 +6,7 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 Ontwerp en maak een living styleguide voor een opdrachtgever.
 
 # Het product
-![image](https://user-images.githubusercontent.com/74552944/203525009-d8f90ae7-b6f7-4721-8135-04e9e727856e.png)
-
+![image](https://user-images.githubusercontent.com/61830362/203525468-6fd8e435-e1d5-44e7-a3a2-6036ba56ffaa.png)
 
 ## Het team
 * [Eliza](https://github.com/moonlightlizaa)
