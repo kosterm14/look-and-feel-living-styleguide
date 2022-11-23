@@ -2,8 +2,23 @@
 Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
 De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Naam deeltaak
+# Opdracht
+Ontwerp en maak een living styleguide voor een opdrachtgever.
 
+# Het product
+![image](https://user-images.githubusercontent.com/74552944/203525009-d8f90ae7-b6f7-4721-8135-04e9e727856e.png)
+
+
+## Het team
+[Eliza](https://github.com/moonlightlizaa)
+[Isandro](https://github.com/isandroc)
+[Marco](https://github.com/kosterm14)
+[Trisjan](https://github.com/trisjan)
+[Ivar](https://github.com/ivarschuyt)
+[Roemer](https://github.com/roemerva)
+[Chaan](https://github.com/chaanw)
+[Fouad](https://github.com/fouadtaissate)
+[Chris](https://github.com/chrisvanderhorst0308)
 
 ## Licentie
 
