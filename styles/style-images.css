@@ -71,12 +71,15 @@ nav li a {
 
   font-family: rigid-square, sans-serif;
   font-weight: 800;
+  font-size: 26px;
 }
 
 nav .image {
   text-align: center;
   margin: 0.75rem;
   display: block;
+  position: relative;
+  left: -20px;
 }
 
 nav a.active {
