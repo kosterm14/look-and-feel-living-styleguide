@@ -8,6 +8,8 @@ Ontwerp en maak een living styleguide voor een opdrachtgever.
 # Het product
 <img width="1792" alt="Screenshot 2022-11-24 at 10 10 18 AM" src="https://user-images.githubusercontent.com/106411511/203743180-8737c1a0-e7fd-4a4d-b032-5586c2d25fbb.png">
 
+<img width="1792" alt="Screenshot 2022-11-24 at 10 11 15 AM" src="https://user-images.githubusercontent.com/106411511/203743430-065010b4-5ad9-4a97-92d4-5a6084e05ded.png">
+
 ## Het team
 * [Eliza](https://github.com/moonlightlizaa)
 * [Isandro](https://github.com/isandroc)
