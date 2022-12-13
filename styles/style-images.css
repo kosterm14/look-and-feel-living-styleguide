@@ -121,6 +121,11 @@ h3 {
   margin-bottom: 1rem;
 }
 
+.no {
+  border-bottom: DarkSlateGray 0px solid;
+  margin-bottom: 0px;
+}
+
 pre {
   padding-left: 0.2rem;
   background: rgb(0, 0, 0);
@@ -219,9 +224,15 @@ button {
 
 .link {
   color: var(--orange);
+  text-decoration: none;
 }
 
 .yrsa {
   font-family: var(--broodtekst);
   font-weight: 300;
+}
+
+.color {
+  color: #625c51;
+  opacity: 80%;
 }
